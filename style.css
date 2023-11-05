@@ -1,0 +1,81 @@
+/* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            
+            
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1608111283021-bc3345c5ce51?auto=format&fit=crop&q=80&w=3570&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+        }
+        .row{
+            display: flex;
+        }
+        .col{
+            height: 70px;
+            width: 70px;
+            border: 1px solid black;
+            /*to put X into center*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            background-color: blanchedalmond;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15rem;
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30%;
+            margin-right: 30%;
+            /* height: 170px;
+            width: 600px; */
+            border: 1px solid black;
+            border-radius: 10px;
+            background: rgb(89, 218, 212);
+            
+        }
+        .resInfo{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #reset-button{
+            margin-top: 20px;
+            height: 40px;
+            width: 150px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border:1px soli black;
+            border-radius: 10px;
+            background-color: rgb(121, 188, 54);
+        }
+        
+        #print{
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333; /* Background color of the footer */
+            color: #ff4500; /* Text color of the footer */
+            padding: 10px; /* Padding for the footer content */
+            text-align: center; /* Center-align the text */
+        }

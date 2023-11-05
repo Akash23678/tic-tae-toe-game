@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tae Toe</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Tic Tae Toe</h1>
+    
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div onclick="handleClickFunction(this)" id="0" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="1" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClickFunction(this)" id="3" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="4" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClickFunction(this)" id="6" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="7" class="col"></div>
+                <div onclick="handleClickFunction(this)" id="8" class="col"></div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="info">
+        <div class="resInfo">
+            <button id="reset-button" onclick="myfunc_2()"> 
+                Play Again 
+            </button> 
+            <br> 
+            <p id="print"> Let's kick off the match...</p> 
+        </div>
+    </div>
+    
+    <div class="footer">
+        <footer>
+            Created By <a style="color: antiquewhite;" href="https://www.linkedin.com/in/akash-chandra-sahu-54016818a">Akash Chandra Sahu</a> <img src="" alt="">
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
